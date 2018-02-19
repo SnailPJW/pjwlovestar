@@ -64,7 +64,11 @@ p{
 	margin: 0 auto;
 	font-size: 1.5em;
 }
-
+.section img{
+	height: 200px;
+	margin: 20px 0;
+	opacity: 0.7;
+}
 
 /* Section 1
  * --------------------------------------- */
@@ -75,12 +79,6 @@ p{
 	color: #333;
 	color: rgba(0,0,0,0.3);
 }
-#section1 img{
-	height: 200px;
-	margin: 20px 0;
-	opacity: 0.7;
-}
-
 /* Section 2
  * --------------------------------------- */
 #section2 h1,
