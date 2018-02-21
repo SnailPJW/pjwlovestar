@@ -25,8 +25,16 @@
 	</ul>
 	<div id="pagepiling">
 	    <div class="section" id="section1">
-			<img src="img/thumbnail/first.jpg" alt="">
-			<img src="img/thumbnail/firstMe.jpg" alt="">
+			<div class="lightgallery">
+				<a href="img/first.jpg">
+					<img src="img/thumbnail/first.jpg" alt="">
+				</a>
+				<a href="img/firstMe.jpg">
+					<img src="img/thumbnail/firstMe.jpg" alt="">
+				</a>
+			</div>
+			<!-- <img src="img/thumbnail/first.jpg" alt="">
+			<img src="img/thumbnail/firstMe.jpg" alt=""> -->
 			<div class="intro">
 				<h1>第一眼，就醉倒在妳那迷人的笑容</h1>
 				<p>我們還是青澀的大一新生，不知道是沛馨這個名字太讚還是管錢的天命，立馬給班導點名擔任總務股長，當沛馨同學站起來，就露出那招牌的笑容，儘管當時笑容中參雜不少尷尬與ＯＳ：操！這樣也能選到我．．．</p>
@@ -170,7 +178,7 @@
 	
 	<script type="text/javascript">
 		$(document).ready(function() {
-			$("#lightgallery").lightGallery();
+			$(".lightgallery").lightGallery();
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
