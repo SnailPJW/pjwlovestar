@@ -192,7 +192,7 @@
 		$(document).ready(function() {
 			$(".heartSwitch").on("click", function() {
 				$(this).toggleClass("is-active");
-				$('.bg_heart').toggleClass(".bg-heart-hide");
+				$('.bg_heart').toggle("slow");
 			});
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
