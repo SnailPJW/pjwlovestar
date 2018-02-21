@@ -156,3 +156,7 @@ html,body{height:100%}
 	right: 5%;
 	z-index: 75;
   }
+  .bg-heart-hide{
+	  display: none;
+	  z-index: 0;
+  }
