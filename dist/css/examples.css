@@ -137,7 +137,7 @@ html,body{height:100%}
 	height: auto;
 }
 
-.heart {
+.heartSwitch {
 	width: 100px;
 	height: 100px;
 	background: url("https://cssanimation.rocks/images/posts/steps/heart.png") no-repeat;
@@ -146,7 +146,7 @@ html,body{height:100%}
 	transition: background-position 1s steps(28);
 	transition-duration: 0s;
   }
-  .heart.is-active {
+  .heartSwitch.is-active {
 	transition-duration: 1s;
 	background-position: -2800px 0;
   }
