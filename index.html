@@ -5,6 +5,8 @@
 	<link rel="stylesheet" href="dist/css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" type="text/css" href="dist/css/jquery.pagepiling.min.css" />
 	<link rel="stylesheet" type="text/css" href="dist/css/examples.css" />
+	<link rel="stylesheet" href="dist/css/lightgallery.min.css">
+	<link rel="stylesheet" href="dist/css/lg-transitions.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script type="text/javascript" src="dist/js/jquery.pagepiling.min.js"></script>
 </head>
@@ -162,8 +164,13 @@
 	</div>
 	<div class="bg_heart">
 	</div>
+	<!-- A jQuery plugin that adds cross-browser mouse wheel support. (Optional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+	<script src="dist/js/lightgallery.min.js"></script>
+	
 	<script type="text/javascript">
 		$(document).ready(function() {
+			$("#lightgallery").lightGallery();
 	    	$('#pagepiling').pagepiling({
 	          	direction: 'horizontal',
 	    		menu: '#menu',
