@@ -133,3 +133,7 @@ html,body{height:100%}
 @keyframes love {
   0%{top:110%}
 }
+
+.lightbox a{
+	z-index: 70;
+}
